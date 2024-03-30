@@ -16,3 +16,53 @@ https://github.com/DanielaRoldanViani/Trabajo_practico1.git
 git add .
 git commit -m "Comentario"
 git push
+
+<main>
+      <section>
+        <!--Formulario con los cinco campos requeridos
+        para el tp. Agregué un text área que no figuraba
+        originalmente, claro que se puede quitar.-->
+        <form action="" method="">
+          <label for="nombre">Nombre completo:</label><br />
+          <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan José Pérez" required /><br />
+
+          <label for="email">Correo electrónico:</label><br />
+          <input type="email" id="email" name="email" placeholder="correo@mail.com.ar" required /><br />
+
+          <label for="telefono">Teléfono:</label><br />
+          <input type="tel" id="telefono" name="telefono" placeholder="Ej: 1111-123456"/><br />
+
+          <label>Interés en cursos:</label><br />
+          <input
+            type="checkbox"
+            id="frontend"
+            name="interes"
+            value="frontend"
+          />
+          <label for="frontend"> Desarrollo Frontend</label><br />
+          <input type="checkbox" id="backend" name="interes" value="backend" />
+          <label for="backend"> Desarrollo Backend</label><br />
+          <input type="checkbox" id="diseno" name="interes" value="diseno" />
+          <label for="diseno"> Diseño Web</label><br />
+
+          <label for="nivel">Nivel de experiencia:</label><br />
+          <select id="nivel" name="nivel">
+            <option value="principiante">Principiante</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option></select
+          ><br />
+
+          <label for="comentarios">Comentarios:</label><br />
+          <textarea
+            id="comentarios"
+            name="comentarios"
+            rows="4"
+            cols="50"
+            placeholder="Deje aquí su comentario y en breve nos comunicaremos con usted."
+          ></textarea
+          ><br />
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
