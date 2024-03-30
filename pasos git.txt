@@ -1,0 +1,18 @@
+git init
+git add .
+
+
+git commit -m "Comentario"
+git remote add origin [repositorio de github]
+
+git remote add origin [repositorio de github]
+git push -u origin [rama]  (aca va master o main)
+
+
+https://github.com/DanielaRoldanViani/Trabajo_practico1.git
+
+
+-----------------------------------------
+git add .
+git commit -m "Comentario"
+git push
