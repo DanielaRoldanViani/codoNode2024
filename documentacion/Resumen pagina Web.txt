@@ -1,0 +1,37 @@
+Necesito crear un sitio Web en html 5 y utilizando CSS. 
+El sitio web debe poseer 4 secciones de un sitio One Page. 
+La tematica del sitio es, un Sitio Web donde se ofrecen cursos de formación en programación o desarrollo web, tipo Coderhouseo educacion It. 
+Nombre del sitio: Academy Code
+Colores: #333333, #666666, #0099cc, #ffffff
+Fuentes: Courier New (monospace), 
+El encabezado del sitio Web tendrá a la izquierda un logo que haga referencia a la tematica, a la derecha de este, un enlace CURSOS, que nos lleve a los cursos disponibles, a la derecha de este un enlace INGRESAR, que nos permita identificarnos para ingresar a la cuenta o registrarnos si no tenemos usuario registrado.
+El pie de pagina solo poner Academy Code a la izquierda y a la derecha links a las redes sociales (facebook, youtube, instagram, linkedin), debajo separado por una linea, tres titulos alineados: NOSOTROS, ALUMNOS, EQUIPO y debajo separado por otra linea, un link a los terminos y condiciones.
+
+Cuerpo: 
+Texto random a la izquierda y una imagen a la derecha
+
+CURSOS: Texto random con tipos de cursos disponibles acompañados por imagenes: Javascript, html, css, php, sql, mongo, etc.
+
+INGRESAR: Formulario de registro. 
+1. Nombre completo: Permite a los usuarios identificarse claramente.
+2. Correo electrónico: Para poder contactar con los interesados en los cursos.
+3. Teléfono: Opcionalmente, para proporcionar otra vía de contacto.
+4. Interés en cursos: Checkbox o radiobutton con opciones como "Desarrollo Frontend", "Desarrollo Backend", "Diseño Web", etc.
+5. Nivel de experiencia: Select con opciones como "Principiante", "Intermedio", "Avanzado".
+
+Si el alumna se loguea correctamente, se cambiará en el encabezado, el enlace INGRESAR y se pasará a llamar MIS CURSOS y a la derecha de este, un texto fijo de bienvenida tipo: Hola <Nombre del usuario>!
+
+La seccion MIS CURSOS: deberá contener los cursos que tiene disponible el usuario. hacer click en ellos, nos llevará a la ultima sección que será una seccion de VIDEOS.
+
+VIDEOS: Tentrá como titulo el tipo de curso que hizo click y abajo como carrusel, los diferentes videos disponibles del curso elegido.
+
+Items a tener en cuenta que debe incluir si o si el código del sitio Web:
+1- El sitio web debe incluir un formulario de contacto, con al menos 5 campos que incluya (un checkbox o radiobutton), un select y una imagen, con validación realizada mediante JavaScript para que los campos sean obligatorios. 
+2- Tener al menos una página totalmente responsive con mínimo 3 puntos de corte con media querys para 3 tamaños de dispositivos (PC escritorio, Tablet, Celular). Para el diseño debe usarse CSS.
+3- Utilizar al menos una animación, transformación o una transición.
+4- Poseer una estructura HTML maquetada con Flexbox y/o Grid.
+5- Se considerará la presentación general del proyecto, la legibilidad del mismo, la navegación sin llegar a puntos de no retorno, la optimización de imagenes para la web y el uso de favicon
+6- El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git. (Mandatorio)
+7- La página deberá subirse a un servidor on-line para poder ser navegada por el Docente. Ejemplo: Netlify o similar. (Mandatorio)
+8- El sitio web debe estar estructurado utilizando etiquetas semánticas HTML correctamente. 9- 9- Debe pasar la validación de https://validator.w3.org/ sin errores.  (Mandatorio)
+10- Utilizar iframes y/o íconos de FontAwesome y/o fuentes locales o bien de Google Fonts.Es optativo incluir algún elemento de Bootstrap.
