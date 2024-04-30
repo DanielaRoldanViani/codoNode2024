@@ -1,85 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos.css" />
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>TrabajoPractico1</title>
-  </head>
-  <body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academy Code</title>
+  <link rel="icon" href="media/icon/iconoAC.png">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/cursos.css">
+  <link rel="stylesheet" href="css/carrusel.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/formulario.css">
 </head>
 
 <body>
-    <header>
-      <nav class="nav">
-        <a href="index.php">Home</a>
-        <a href="login.php">Registrate</a>
-        <a href="usuarios.php">Ingreso</a>
-      </nav>
-      <h1>Academy Code</h1>
-        <nav class="nav">
-            <a href="index.html">Home</a>
-            <a href="login.html">Registrate</a>
-            <a href="usuarios.html">Ingreso</a>
+  <header>
+    <div class="header-logo"><!-- LOGO Y LINK AL INICIO -->
+      <a href="#home" class="router-link-active">
+        <img src="media/logoAC.svg" alt="Academy Code Logo">
+      </a>
+    </div>
+    <nav class="header-menu"><!-- NAVEGADOR POR LAS OTRAS SECCIONES -->
+      <ul>
+        <li><a href="#cursos">CURSOS</a></li>
+        <li><a href="#misCursos">MIS CURSOS</a></li>
+        <li><a href="#registro">REGISTRARSE</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        </nav>
-        <h1>Academy Code</h1>
-    </header>
-    <main>
-        <section>
-          <!--Formulario con los cinco campos requeridos
-          para el tp. Agregué un text área que no figuraba
-          originalmente, claro que se puede quitar.-->
-          <form action="" method="">
-            <label for="nombre">Nombre completo:</label><br />
-            <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan José Pérez" required /><br />
-  
-            <label for="email">Correo electrónico:</label><br />
-            <input type="email" id="email" name="email" placeholder="correo@mail.com.ar" required /><br />
-  
-            <label for="telefono">Teléfono:</label><br />
-            <input type="tel" id="telefono" name="telefono" placeholder="Ej: 1111-123456"/><br />
-  
-            <label>Interés en cursos:</label><br />
-            <input
-              type="checkbox"
-              id="frontend"
-              name="interes"
-              value="frontend"
-            />
-            <label for="frontend"> Desarrollo Frontend</label><br />
-            <input type="checkbox" id="backend" name="interes" value="backend" />
-            <label for="backend"> Desarrollo Backend</label><br />
-            <input type="checkbox" id="diseno" name="interes" value="diseno" />
-            <label for="diseno"> Diseño Web</label><br />
-  
-            <label for="nivel">Nivel de experiencia:</label><br />
-            <select id="nivel" name="nivel">
-              <option value="principiante">Principiante</option>
-              <option value="intermedio">Intermedio</option>
-              <option value="avanzado">Avanzado</option></select
-            ><br />
-  
-            <label for="comentarios">Comentarios:</label><br />
-            <textarea
-              id="comentarios"
-              name="comentarios"
-              rows="4"
-              cols="50"
-              placeholder="Deje aquí su comentario y en breve nos comunicaremos con usted."
-            ></textarea
-            ><br />
-  
-            <input type="submit" value="Enviar" />
-          </form>
-        </section>
-      </main>
+  <main>
+    <section class="home" aria-label="Presentacion de Academy Code"><!-- SECCION 1. INICIO -->
+      <div>
+        <div class="home"><!-- TITULO -->
+          <h1>ACADEMY CODE <br>TU FUTURO AQUÍ</h1>
+        </div>
+        <div class="home"><!-- Cierre pagina principal -->
+          <P>Empresas que nos avalan</P>
+        </div>
+        <div class="home_Img"><!-- Imagenes de empresas -->
+          <img src="media/img/amazon.svg" alt="Logo Amazon" width="170" height="35" class="AmazonLogo">
+          <img src="media/img/google.svg" alt="Logo Google" width="170" height="35" class="GoogleLogo">
+          <img src="media/img/mercadolibre.svg" alt="Logo Mercadolibre" width="170" height="35"
+            class="MercadolibreLogo">
+          <img src="media/img/disney.svg" alt="Logo Disney" width="170" height="35" class="DisneyLogo">
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="secciones" aria-label="Cursos disponibles"><!-- SECCION 2. CURSOS -->
+      <h2 id="cursos">CURSOS</h2>
+      <div class="cursos">
+        <article class="curso"><!-- curso 1 -->
+          <h3>HTML 5</h3>
+          <img src="media/img/html.svg" alt="Imagen HTML5">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+        <article class="curso"><!-- curso 2 -->
+          <h3>CSS 3</h3>
+          <img src="media/img/css-3.svg" alt="Imagen CURSO 2">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+        <article class="curso"><!-- curso 3 -->
+          <h3>NODE JS</h3>
+          <img src="media/img/node.svg" alt="Imagen CURSO 3">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+        <article class="curso"><!-- curso 4 -->
+          <h3>JAVASCRIPT</h3>
+          <img src="media/img/javascript.svg" alt="Imagen CURSO 4">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+        <article class="curso"><!-- curso 5 -->
+          <h3>MONGODB</h3>
+          <img src="media/img/mongodb.svg" alt="Imagen CURSO 5">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+        <article class="curso"><!-- curso 6 -->
+          <h3>PHP</h3>
+          <img src="media/img/php.svg" alt="Imagen CURSO 6">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+        <article class="curso"><!-- curso 7 -->
+          <h3>PYTHON</h3>
+          <img src="media/img/python.svg" alt="Imagen CURSO 7">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+        <article class="curso"><!-- curso 8 -->
+          <h3>SQL SERVER</h3>
+          <img src="media/img/sqlserver.svg" alt="Imagen CURSO 8">
+          <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi deserunt enim sapiente quaerat mollitia
+            consequatur inventore laborum accusantium blanditiis hic iusto aliquid quae, obcaecati autem quisquam
+            accusamus, et ullam officia!</P>
+        </article>
+      </div>
+    </section>
+    <hr>
 
+    <section class="secciones" aria-label="Cursos liberados"><!-- SECCION 3. MIS CURSOS -->
+      <div>
+        <h2 id="misCursos">MIS CURSOS</h2>
+      </div>
+      <div class="carrusel">
+        <!-- Radio buttons para controlar el carrusel -->
+        <input type="radio" id="video1" name="video" checked>
+        <input type="radio" id="video2" name="video">
+        <input type="radio" id="video3" name="video">
+
+        <!-- Contenedor del carrusel de videos -->
+        <div class="video-container">
+          <iframe class="video1" width="560" height="315"
+            src="https://www.youtube.com/embed/3nYLTiY5skU?si=WCaFGFAP_m9e83bw" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="video2" width="560" height="315"
+            src="https://www.youtube.com/embed/hrxjBqZWsb0?si=v82w8pRPaX_Nl-7C" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="video3" width="560" height="315"
+            src="https://www.youtube.com/embed/yB4n_K7dZV8?si=cPzutExXUxH94phX" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="button-container">
+          <!-- Botones de navegación -->
+          <div class="navegacion video1">
+            <label for="video2">→</label>
+          </div>
+          <div class="navegacion video2">
+            <label for="video1">←</label>
+            <label for="video3">→</label>
+          </div>
+          <div class="navegacion video3">
+            <label for="video2">←</label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="secciones" aria-label="Formulario de registro"><!-- SECCION 4. REGISTRARSE -->
+      <div>
+        <h2 id="registro">REGISTRARSE</h2>
+      </div>
+      <div class="formulario">
+        <form action="#">
+          <fieldset>
+            <legend>Formulario de registro</legend>
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Apellido:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="birthday">Fecha de nacimiento:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            <label for="interes">Interés en cursos:</label>
+            <select id="interes" name="interes">
+              <option value="none">Elija curso gratuito</option>
+              <option value="frontend">JavaScript</option>
+              <option value="backend">PHP</option>
+              <option value="backend">MongoDb</option>
+              <!-- Otros intereses aquí -->
+            </select><br><br>
+            <label>Nivel de experiencia:</label>
+            <ul style="list-style: none; padding: 0">
+              <li><input type="radio" name="level" value="1" checked>Principiante </li>
+              <li><input type="radio" name="level" value="2">Intermedio</li>
+              <li><input type="radio" name="level" value="3">Avanzado</li>
+            </ul>
+            <input class="botonRegistrar" type="submit" value="Registrarse">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="redes_sociales"><!-- Redes sociales -->
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <img src="media/icon/facebook.svg" alt="Logo facebook" loading="lazy">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <img src="/media/icon/linkedin.svg" alt="Logo linkedin" loading="lazy">
+      </a>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        <img src="/media/icon/youtube.svg" alt="Logo youtube" loading="lazy">
+      </a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <img src="media/icon/instagram.svg" alt="logo instagram" loading="lazy">
+      </a>
+      <a href="https://www.discord.com" target="_blank" rel="noopener noreferrer">
+        <img src="media/icon/discord.svg" alt="Logo discord" loading="lazy">
+      </a>
+    </div>
+    <hr>
+    <div class="footer_links"><!-- Accesos a otras areas -->
+      <div>
+        <h4>NOSOTROS</h4>
+        <ul>
+          <li><a href="#" class=""> Equipo </a></li>
+          <li><a href="#" class=""> En el mundo </a></li>
+          <li><a href="#" class=""> Pregustas frecuentes </a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>ALUMNOS</h4>
+        <ul>
+          <li><a href="#" class="">Alumni</a></li>
+          <li><a href="#" class="">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>CORPORATIVO</h4>
+        <ul>
+          <li><a href="#" class="">Trabaja con nosotros</a></li>
+          <li><a href="#" class="">Capacitaciones</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="footer_TyC"><!-- Términos y condiciones -->
+      <a href="/terminos-y-condiciones.html" target="_blank" class="underline"> Términos y condiciones </a>
+      <p><span class="font-bold">Academy Code </span> Copyright 2024</p>
+    </div>
+
+  </footer>
 </body>
 
 </html>

@@ -1,0 +1,64 @@
+.footer {
+  /*border: 0.3rem #835602 solid;*/
+  margin: 5rem;
+}
+
+.redes_sociales {
+  margin: 5rem;
+  display: flex;
+  /* Utilizamos flexbox para los iconos */
+  justify-content: center;
+  /* Centramos horizontalmente los iconos */
+}
+
+.redes_sociales a {
+  margin: 0 3rem;
+  /* Añadimos un margen entre los iconos */
+}
+
+.redes_sociales img {
+  /* Ajusta el tamaño de los logos aquí */
+  width: 4rem;
+  height: 4rem;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_links div {
+  text-align: center;
+}
+
+.footer_links h4 {
+  color: rgb(5, 135, 135);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  /* Ajusta el espacio entre los títulos h4 y las listas */
+  text-align: center;
+  /* Mantén los títulos h4 centrados */
+}
+
+.footer_links ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  /* Alinea el texto de la lista a la izquierda */
+}
+
+.footer_links ul li {
+  margin-bottom: 0.5rem;
+  /* Ajusta el espacio entre los elementos de la lista */
+}
+
+.footer_links a {
+  color: rgb(13, 14, 14);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.footer_TyC {
+  margin: 3rem;
+  /* Ajusta el espacio entre los elementos de la lista */
+}

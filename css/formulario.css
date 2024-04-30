@@ -1,0 +1,17 @@
+.formulario legend {
+  color: rgb(14, 107, 238);
+  font-size: 3rem;
+}
+
+.formulario label,
+select option,
+ul {
+  color: rgba(16, 1, 149, 0.847);
+  font-size: 2rem;
+}
+
+.botonRegistrar {
+  color: rgba(1, 1, 1, 0.866);
+  background-color: green;
+  font-size: 2em;
+}

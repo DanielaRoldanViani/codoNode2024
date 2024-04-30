@@ -1,0 +1,64 @@
+.section-cursos h2 {
+  color: rgb(0, 213, 255);
+  font-size: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  /* Centrar horizontalmente */
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Distribuye los cursos uniformemente */
+}
+
+.curso {
+  width: calc(33.33% - 2rem);
+  /* Cada curso ocupa 33.33% del espacio con espacio entre ellos */
+  margin-bottom: 2rem;
+  /* Espacio entre filas de cursos */
+  border: 0.1rem solid #ccc;
+  /* Borde alrededor de cada curso */
+  text-align: center;
+  /* Centra el texto dentro del cuadro */
+
+}
+
+.curso h3 {
+  color: rgb(166, 52, 10);
+  font-size: 2rem;
+  overflow: hidden;
+  /* Evita que el título se salga del cuadro */
+  white-space: nowrap;
+  /* Evita que el título se divida en varias líneas */
+  text-overflow: ellipsis;
+  /* Añade puntos suspensivos si el título es demasiado largo */
+}
+
+.curso img {
+  display: block;
+  margin: 0 auto;
+  /* Centra la imagen horizontalmente */
+  max-width: 30%;
+  /* Ajusta el tamaño de la imagen */
+}
+
+.curso p {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 480px) {
+  .curso {
+    width: calc(100% - 2rem);
+    /* Un curso por fila en pantallas muy pequeñas */
+  }
+}
+
+@media (max-width: 768px) {
+  .curso {
+    width: calc(50% - 2rem);
+    /* Dos cursos por fila en pantallas pequeñas */
+  }
+}

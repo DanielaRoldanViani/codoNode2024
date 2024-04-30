@@ -1,0 +1,87 @@
+/* Como 16px es el tamaño predeterminado, se fija el valor en 62.5%, que equivale a que el valor referencial sea 10px */
+:root {
+    font-size: 62.5%;
+    /* 10px */
+}
+
+body {
+    /*border: 0.5rem red solid;*/
+    margin: 0.5rem;
+    min-width: 300px;
+    /* Tamaño minimo para que no se apile el menu */
+}
+
+header {
+    /*border: 0.3rem rgb(17, 13, 226) solid;*/
+    margin: 0.5rem;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 12rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li,
+a {
+    font-size: 3rem;
+    display: inline;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+main {
+    /*border: 0.3rem rgb(239, 9, 247) solid;*/
+    margin: 0.5rem;
+}
+
+section {
+    /*border: 0.1rem #0bb9c5 solid;*/
+    margin: 0.5rem;
+}
+
+.home h1 {
+    color: blue;
+    font-size: 5rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+}
+
+.home p {
+    color: black;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home_Img {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* Espacio entre las imágenes */
+}
+
+.home_Img img {
+    max-width: 10%;
+    /* Para que las imágenes no cambien su tamaño */
+}
+
+.secciones h2 {
+    color: rgb(36, 26, 230);
+    font-size: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+}
