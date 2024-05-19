@@ -1,17 +1,204 @@
-.formulario legend {
-  color: rgb(14, 107, 238);
-  font-size: 3rem;
+/*.formulario legend {
+  color: #032c66;
+  font-size: 4rem;
 }
 
 .formulario label,
 select option,
 ul {
-  color: rgba(16, 1, 149, 0.847);
+  color: #032c66;
   font-size: 2rem;
+  padding: 2rem;
 }
 
-.botonRegistrar {
+.botRegistrar {
   color: rgba(1, 1, 1, 0.866);
-  background-color: green;
+    
+  background-color:#04d39f;
+  border: #04d39f;
   font-size: 2em;
+}*/
+
+ /* Estilos base para todos los dispositivos */
+ @media only screen and (min-width: 0) {
+  .seccionFormulario {
+    /* Estilos para la sección del formulario */
+
+    formulario legend {
+      color: #032c66;
+      font-size: 4rem;
+    }
+    
+    .formulario label,
+    select option,
+    ul {
+      color: #032c66;
+      font-size: 2rem;
+      padding: 2rem;
+    }
+    
+    .botRegistrar {
+      color: rgba(1, 1, 1, 0.866);
+        
+      background-color:#04d39f;
+      border: #04d39f;
+      font-size: 2em;
+  }
+
+  .formulario {
+    /* Estilos para el contenedor del formulario */
+    width: 50%; /* Ejemplo de ancho base */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    padding: 2rem; /* Padding base */
+    border: 1px solid #ccc; /* Borde base (opcional) */
+  }
+
+  .nombreForm {
+    /* Estilos para el título del formulario */
+    font-size: 4rem;
+    text-align: center; /* Centrar el texto */
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    /* Estilos para labels, opciones y lista */
+    display: block; /* Mostrar elementos en línea */
+    margin-bottom: 1rem; /* Margen inferior base */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    /* Estilos para inputs de texto */
+    width: 90%; /* Ancho completo */
+    padding: 1rem; /* Padding base */
+    border: 1px solid #ccc; /* Borde base */
+  }
+
+  .formulario select {
+    /* Estilos para el selector */
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc; /* Borde base */
+  }
+
+  .form li {
+    /* Estilos para los elementos de la lista */
+    display: inline-block; /* Mostrar elementos en línea */
+    margin-right: 1rem; /* Margen derecho base */
+  }
+
+  .botRegistrar {
+    /* Estilos para el botón de registro */
+    display: block; /* Mostrar en línea */
+    width: 40%; /* Ancho completo */
+    padding: 1rem; /* Padding base */
+    background-color: #04d39f;
+    color: rgba(1, 1, 1, 0.866);
+    border: none; /* Quitar borde */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  }
+}
+ }
+
+/* Estilos para dispositivos móviles (hasta 768px) */
+@media only screen and (max-width: 768px) {
+  .formulario {
+    width: 80%; /* Ajustar ancho para móviles */
+    padding: 1rem;
+  }
+
+  .nombreForm {
+    font-size: 2.5rem;
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    padding: 0.5rem;
+  }
+
+  .formulario select {
+    padding: 0.5rem;
+  }
+
+  .botRegistrar {
+    padding: 0.7rem;
+  }
+  /* Estilos para tablets (entre 768px y 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .formulario {
+    width: 60%; /* Ajustar ancho para tablets */
+  }
+
+  .nombreForm {
+    font-size: 3rem; /* Aumentar tamaño de título */
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    font-size: 1.8rem; /* Aumentar tamaño de texto */
+    margin-bottom: 1rem; /* Mantener margen base */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    padding: 1rem; /* Mantener padding base */
+  }
+
+  .formulario select {
+    padding: 1rem; /* Mantener padding base */
+  }
+
+  .botRegistrar {
+    padding: 1rem; /* Mantener padding base */
+  }
+}
+}
+/* Estilos para notebooks (mayor a 1024px) */
+@media only screen and (min-width: 1025px) {
+  .formulario {
+    width: 40%; /* Ancho más amplio para notebooks */
+    margin: 50px auto; /* Centrar con mayor espacio */
+  }
+
+  .nombreForm {
+    font-size: 4rem; /* Tamaño de título más grande */
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    font-size: 2rem; /* Aumentar tamaño de texto */
+    margin-bottom: 1.5rem; /* Aumentar margen para mayor espacio */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    padding: 1.5rem; /* Aumentar padding para mayor comodidad */
+  }
+
+  .formulario select {
+    padding: 1.5rem; /* Aumentar padding para mayor comodidad */
+  }
+
+  .botRegistrar {
+    padding: 1.5rem; /* Aumentar padding para mayor comodidad */
+    font-size: 2em; /* Tamaño de fuente más grande para el botón */
+  }
 }

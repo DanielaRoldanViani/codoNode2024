@@ -42,7 +42,9 @@
   width: 100%;
   border: none;
   display: none;
+  z-index: 10;
   /* Por defecto, ocultar todos los videos */
+
 }
 
 /* Estilos para mostrar el video seleccionado */
@@ -63,10 +65,11 @@
 .navegacion label {
   cursor: pointer;
   padding: 10px;
-  background-color: #0099cc;
+  background-color: #032c66;
   color: #fff;
   border-radius: 5px;
   margin: 0 5px;
+
 }
 
 
