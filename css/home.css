@@ -276,8 +276,8 @@ margin-left: 48%;
 }
 }
  
-   
-@media only screen and (min-width: 1025px) {
+   /*tablet*/
+@media (min-width: 768px) and (max-width: 1024px) { 
     body {
         /*border: 0.5rem red solid;*/
         margin: 0;
