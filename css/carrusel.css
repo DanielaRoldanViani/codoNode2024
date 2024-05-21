@@ -7,9 +7,7 @@
 .video-container {
   position: relative;
   width: 560px;
-  /* Ajusta el ancho según tus necesidades */
   height: 315px;
-  /* Ajusta la altura según tus necesidades */
   overflow: hidden;
   margin: 20px auto;
 }
@@ -29,7 +27,6 @@
 .button-container {
   position: relative;
   width: 30px;
-  /* Ajusta el ancho según tus necesidades */
   height: 20px;
   margin: 20px auto;
 }

@@ -76,15 +76,18 @@ nav a {
     display: flex;
     justify-content: center;
 }
+.secciones h2 {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #032c66;
+    background-color: #04d39f;
+    /* Centrar horizontalmente */
+}
 
 @media (max-width:300px) {
-
     .secciones {
         display: block;
-    }
-
-    .cursos {
-        display: flex;
     }
 
     article {
@@ -94,44 +97,7 @@ nav a {
 }
 
 @media (min-width:301px) and (max-width: 767px) {
-    .home_title h1 {
-        color: #032c66;
-        font-size: 5rem;
-        display: flex;
-        justify-content: center;
-        /* Centrar horizontalmente */
-    }
-
-    .home_title h2 {
-        color: #ffffff;
-        font-size: 2rem;
-        height: 0.5rem;
-        display: flex;
-        justify-content: center;
-        /* Centrar horizontalmente */
-    }
-
     /* Estilos para celulares (hasta 768px) */
-    .secciones h2 {
-        font-size: 4rem;
-        height: 2rem;
-        display: flex;
-        justify-content: center;
-        z-index: 11;
-        /* Centrar horizontalmente */
-    }
-
-    #misCursos {
-        color: #032c66;
-        z-index: 10;
-        opacity: 1;
-    }
-
-    .misCursos {
-        background-color: #04d39f;
-        z-index: -3;
-    }
-
     .seccionFormulario {
         width: 100%;
         height: auto;
@@ -230,21 +196,21 @@ nav a {
     }
 
     nav a {
-        font-size: 2rem;
+        font-size: 3rem;
         text-decoration: none;
         padding: 1rem;
         color: var(--azul);
     }
 
     .home_title h1 {
-        font-size: 2rem;
+        font-size: 4rem;
         height: 0.5rem;
         display: flex;
         /* Centrar horizontalmente */
     }
 
     .home_title h2 {
-        font-size: 1rem;
+        font-size: 3rem;
         height: 0.5rem;
         display: flex;
         /* Centrar horizontalmente */
