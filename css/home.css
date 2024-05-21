@@ -1,17 +1,16 @@
 /* Como 16px es el tamaño predeterminado, se fija el valor en 62.5%, que equivale a que el valor referencial sea 10px */
 :root {
     --negro: #333333;
-    --verde:#04d39f;
-    --blanco:#ffffff;
-    --azul:#032c66; 
-    width: 1440px;
-    height: 600px;
+    --verde: #04d39f;
+    --blanco: #ffffff;
+    --azul: #032c66;
 
     font-size: 62.5%;
     width: 100%;
     height: auto;
     /* 10px */
 }
+
 body {
     border: 0.5rem red solid;
     margin: 0.5rem;
@@ -19,117 +18,100 @@ body {
     height: auto;
 
     /* Tamaño minimo para que no se apile el menu */
-} 
+}
+
 header {
     border: 0.5rem rgb(255, 145, 0) solid;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-}  
-.header-logo  a img {
+}
+
+.header-logo a img {
     height: 12rem;
-} 
+}
+
 nav ul {
     list-style-type: none;
 }
+
 nav a {
     text-decoration: none;
     color: var(--azul);
 }
 
+.home_title {
+    background-color: #04d39f;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.home_title h1 {
+    color: #032c66;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+}
+
+.home_title h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+}
+
+.home_subtitle p {
+    color: #032c66;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home_img {
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width:300px) {
-    .home1{
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-        background-color: #04d39f;
-    }
-    .home1 h1 {
-        color: #032c66;
-        font-size: 3rem;
-        display: flex;
-        justify-content: center;
-        /* Centrar horizontalmente */
-    }
-    .home1 h2 {
-        color: #ffffff;
-        font-size: 2rem;
-        height: 0.5rem;
-        display: flex;
-        justify-content: center;
-        /* Centrar horizontalmente */
-    }
-    .home p {
-        color: #032c66;
-        font-size: 2.5rem;
-        display: flex;
-        justify-content: center;
-    }
-    .home_Img{
-        margin-left: 10%;
-        gap:0rem;
-    }
-    .secciones{
+
+    .secciones {
         display: block;
     }
+
     .cursos {
-        display: flex; 
-    }    
-    article{
+        display: flex;
+    }
+
+    article {
         width: 90%;
         display: block;
     }
 }
 
-@media (min-width:301px) and ( max-width: 767px) {
-    /* Estilos para celulares (hasta 768px) */
-    main {
-        /*border: 0.3rem rgb(239, 9, 247) solid;*/
-        margin: 0.5rem;
-    }
-    section {
-        /*border: 0.1rem #0bb9c5 solid;*/
-        margin: 0.5rem;
-    }
-    .home1{
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-        background-color: #04d39f;
-    }
-    .home1 h1 {
+@media (min-width:301px) and (max-width: 767px) {
+    .home_title h1 {
         color: #032c66;
         font-size: 5rem;
-        height: 3rem;
         display: flex;
         justify-content: center;
         /* Centrar horizontalmente */
     }
-    .home1 h2 {
+
+    .home_title h2 {
         color: #ffffff;
-        font-size: 3rem;
+        font-size: 2rem;
         height: 0.5rem;
         display: flex;
         justify-content: center;
         /* Centrar horizontalmente */
     }
-    .home p {
-        color: #032c66;
-        font-size: 2rem;
-        display: flex;
-        justify-content: center;
-    }
-    .home_Img {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        /* Espacio entre las imágenes */
-    }
-    .home_Img img {
-        max-width: 10%;
-        /* Para que las imágenes no cambien su tamaño */
-    }
+
+    /* Estilos para celulares (hasta 768px) */
     .secciones h2 {
         font-size: 4rem;
         height: 2rem;
@@ -138,125 +120,146 @@ nav a {
         z-index: 11;
         /* Centrar horizontalmente */
     }
-    #misCursos{
+
+    #misCursos {
         color: #032c66;
         z-index: 10;
         opacity: 1;
     }
-    .misCursos{
-        background-color:#04d39f;
+
+    .misCursos {
+        background-color: #04d39f;
         z-index: -3;
     }
-    .seccionFormulario{
+
+    .seccionFormulario {
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
     }
-    .form{
-        list-style: none; 
+
+    .form {
+        list-style: none;
         padding: 0;
     }
-    .formulario{
+
+    .formulario {
         display: block;
         justify-content: center;
         margin-top: 5rem;
     }
-    .nombreForm{
+
+    .nombreForm {
         color: #04d39f;
     }
-    .botRegistrar{
+
+    .botRegistrar {
         background-color: #04d39f;
         border-radius: 5px;
         display: inline-block;
         justify-content: center;
         margin-left: 40%;
     }
-    .lineaFooter{
+
+    .lineaFooter {
         background-color: #04d39f;
         width: 100%;
         height: 10px;
     }
+
     .face {
         font-size: 4rem;
-        color:#1877f2;
+        color: #1877f2;
     }
-    .in{
+
+    .in {
         font-size: 4rem;
-        color:#0a66c2;
+        color: #0a66c2;
     }
-    .you{
+
+    .you {
         font-size: 4rem;
-        color:#ff0000;
+        color: #ff0000;
     }
-    .insta{
+
+    .insta {
         font-size: 4rem;
         color: #ffffff;
         border-radius: 5px;
         padding: 0.3rem;
-        background: linear-gradient(
-        217deg,
-        rgba(255, 0, 0, 0.8),
-        rgba(255, 0, 0, 0) 70.71%
-        ), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-        linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+        background: linear-gradient(217deg,
+                rgba(255, 0, 0, 0.8),
+                rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+            linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
     }
-    .disc{
+
+    .disc {
         font-size: 4rem;
         color: #5562ea;
     }
-    .footer_links{
+
+    .footer_links {
         background-color: #b0f3e2;
-        
+
     }
-    .tituloFooter h4{
+
+    .tituloFooter h4 {
         color: #ffffff;
     }
-    .footer_TyC a{
-    color: #032c66;
-    display: block;
-    justify-content: center;
-    margin-left: 45%;
+
+    .footer_TyC a {
+        color: #032c66;
+        display: block;
+        justify-content: center;
+        margin-left: 45%;
     }
-    .footer_TyC p{
-    font: bold;
-    margin-left: 48%;
+
+    .footer_TyC p {
+        font: bold;
+        margin-left: 48%;
     }
 }
- 
+
 /*tablet*/
-@media (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 768px) and (max-width: 1024px) {
     nav ul {
         list-style-type: none;
         display: flex;
         justify-content: space-between;
     }
+
     nav a {
         font-size: 2rem;
         text-decoration: none;
         padding: 1rem;
         color: var(--azul);
     }
-    .home1 h1 { 
+
+    .home_title h1 {
         font-size: 2rem;
         height: 0.5rem;
         display: flex;
         /* Centrar horizontalmente */
     }
-    .home1 h2 {
+
+    .home_title h2 {
         font-size: 1rem;
         height: 0.5rem;
         display: flex;
         /* Centrar horizontalmente */
     }
-    .video-container{
+
+    .video-container {
         width: 90%;
         height: auto;
     }
-    .footer_TyC a{
+
+    .footer_TyC a {
         margin-left: 40%;
     }
-    .footer_TyC p{
+
+    .footer_TyC p {
         margin-left: 20%;
     }
 }
