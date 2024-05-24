@@ -148,6 +148,7 @@
     align-items: center;
     text-align: center;
     font-size: 2rem;
+   
 
 
   }
@@ -183,7 +184,9 @@
   }
 
   .footer_links a {
-    font-size: 1rem;
+    color: #032c66;
+    font-size: 1.5rem;
+    text-decoration: none;
   }
 
   .footer_TyC a {
@@ -244,7 +247,7 @@
 }
 
 /* Estilos para tablets (entre 768px y 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .redes_sociales a {
     margin: 0 1rem;
   }
@@ -261,11 +264,7 @@
     font-size: 1.8rem;
   }
 
-  .footer_links a {
-    font-size: 1.5rem;
-  }
-
-  .redes_sociales {
+    .redes_sociales {
     margin-left: 0.5rem 0;
     display: flex;
     justify-content: center;
@@ -356,7 +355,7 @@
 
   .footer_links a {
     color: #032c66;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: none;
   }
 
