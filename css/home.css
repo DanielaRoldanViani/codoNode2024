@@ -1,4 +1,5 @@
-/* Como 16px es el tamaño predeterminado, se fija el valor en 62.5%, que equivale a que el valor referencial sea 10px */
+/* Como 16px es el tamaño predeterminado, se fija el valor en 62.5%, 
+que equivale a que el valor referencial sea 10px */
 :root {
     --negro: #333333;
     --verde: #04d39f;
@@ -26,7 +27,7 @@ header {
     top: 0;
     width: 97%;
     background-color: #ffffff;
-    /* Cambia esto según el color de fondo de tu header */
+    /* Color de fondo del header */
     z-index: 1000;
     /* Asegura que el header esté por encima de otros elementos */
     display: flex;
@@ -41,7 +42,7 @@ header {
 
 main {
     padding-top: 10rem;
-    /* Ajusta según la altura de tu header */
+    /* Ajusta según la altura del header */
 }
 
 .header-logo a img {
@@ -133,7 +134,7 @@ html {
     scroll-behavior: smooth;
     /* Transición suave al hacer scroll */
     scroll-padding-top: 15rem;
-    /* Ajusta este valor según la altura de tu header */
+    /* Ajusta este valor según la altura del header */
     /* Ajustar el scroll-padding-top en el contenedor principal */
 }
 
