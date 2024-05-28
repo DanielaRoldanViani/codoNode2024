@@ -299,17 +299,27 @@ html {
         color: var(--azul);
     }
 
+    .home_title {
+        top: 20rem;
+        width: 100vi;
+        padding: 1rem 0;
+        /* Ajusta los valores de padding según sea necesario */
+    }
+
     .home_title h1 {
-        font-size: 4rem;
-        height: 0.5rem;
-        display: flex;
-        /* Centrar horizontalmente */
+        font-size: 5rem;
     }
 
     .home_title h2 {
         font-size: 3rem;
         height: 0.5rem;
-        display: flex;
-        /* Centrar horizontalmente */
+    }
+
+    #empresas {
+        padding: 1rem;
+    }
+
+    .home_subtitle p {
+        font-size: 3rem;
     }
 }
