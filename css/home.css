@@ -21,11 +21,27 @@ body {
 }
 
 header {
-    /*border: 0.5rem rgb(255, 145, 0) solid;*/
+    border: 0.5rem var(--verde) solid;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    background-color: #ffffff;
+    /* Cambia esto según el color de fondo de tu header */
+    z-index: 1000;
+    /* Asegura que el header esté por encima de otros elementos */
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Añade una sombra para destacar el header */
+    border-radius: 3rem;
+    /* Borde redondeado */
+}
+
+main {
+    padding-top: 10rem;
+    /* Ajusta según la altura de tu header */
 }
 
 .header-logo a img {
@@ -43,9 +59,14 @@ nav a {
 
 .home_title {
     background-color: #04d39f;
+    position: absolute;
+    top: 20rem;
+    width: 100vi;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 10rem 0;
+    /* Ajusta los valores de padding según sea necesario */
+    text-align: center;
 }
 
 .home_title h1 {
@@ -54,6 +75,7 @@ nav a {
     display: flex;
     justify-content: center;
     /* Centrar horizontalmente */
+    align-items: center;
 }
 
 .home_title h2 {
@@ -65,9 +87,18 @@ nav a {
     /* Centrar horizontalmente */
 }
 
+#empresas {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 .home_subtitle p {
     color: #032c66;
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
 }
@@ -77,6 +108,18 @@ nav a {
     justify-content: center;
 }
 
+#inicio {
+    height: 100vh;
+    /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cursos {
+    padding-top: 1rem;
+}
+
 .secciones h2 {
     font-size: 4rem;
     display: flex;
@@ -84,6 +127,14 @@ nav a {
     color: #032c66;
     background-color: #04d39f;
     /* Centrar horizontalmente */
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Transición suave al hacer scroll */
+    scroll-padding-top: 15rem;
+    /* Ajusta este valor según la altura de tu header */
+    /* Ajustar el scroll-padding-top en el contenedor principal */
 }
 
 @media (max-width:300px) {
@@ -198,7 +249,7 @@ nav a {
     }
 
     nav a {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-decoration: none;
         padding: 1rem;
         color: var(--azul);
