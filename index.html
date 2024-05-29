@@ -164,38 +164,51 @@
     <section class="seccionFormulario" aria-label="Formulario de registro"><!-- SECCION 4. REGISTRARSE -->
 
       <div class="formulario">
-        <form action="#">
+        <form id="registroForm" action="#">
           <fieldset>
             <legend id="registro" class="nombreForm">Formulario de registro</legend>
+            <div id="errorMessages"></div> 
             <label for="fname">Nombre:</label>
-            <input type="text" id="fname" name="fname" required><br><br>
+            <input type="text" id="fname" name="fname" required>
+            <span class="error" id="fnameError"></span><br><br>
+    
             <label for="lname">Apellido:</label>
-            <input type="text" id="lname" name="lname"><br><br>
+            <input type="text" id="lname" name="lname" required>
+            <span class="error" id="lnameError"></span><br><br>
+    
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span><br><br>
+    
             <label for="birthday">Fecha de nacimiento:</label>
-            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="date" id="birthday" name="birthday" required>
+            <span class="error" id="birthdayError"></span><br><br>
+    
             <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono"><br><br>
+            <input type="tel" id="telefono" name="telefono" required>
+            <span class="error" id="telefonoError"></span><br><br>
+    
             <label for="interes">Interés en cursos:</label>
-            <select id="interes" name="interes">
+            <select id="interes" name="interes" required>
               <option class="seleccion" value="none">Elija curso gratuito</option>
               <option class="seleccion" value="frontend">JavaScript</option>
               <option class="seleccion" value="backend">PHP</option>
               <option class="seleccion" value="backend">MongoDb</option>
-              <!-- Otros intereses aquí -->
-            </select><br><br>
+            </select>
+            <span class="error" id="interesError"></span><br><br>
+    
             <label>Nivel de experiencia:</label>
             <ul class="form">
               <li><input type="radio" name="level" value="1" checked>Principiante </li>
               <li><input type="radio" name="level" value="2">Intermedio</li>
               <li><input type="radio" name="level" value="3">Avanzado</li>
-
             </ul>
+    
             <input class="botRegistrar" type="submit" value="Registrar">
           </fieldset>
         </form>
-      </div>
+      </div>         
+        
     </section>
   </main>
 
@@ -262,6 +275,7 @@
     </div>
 
   </footer>
+  <script src="validacion.js"></script>
 </body>
 
 </html>
