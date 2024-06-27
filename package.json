@@ -1,0 +1,14 @@
+{
+  "name": "mi-proyecto-node",
+  "version": "1.0.0",
+  "description": "Proyecto Node.js con Express y MySQL",
+  "main": "index.js", 
+  "scripts": {
+    "start": "node index.js", 
+    "dev": "nodemon index.js" 
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
+}

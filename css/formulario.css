@@ -1,0 +1,536 @@
+@media (max-width:300px) {
+  
+  .nombreForm {
+    color: #032c66;
+    font-size: 4rem;
+  }
+  .seccionFormulario {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    color: #032c66;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+
+  .formulario {
+    /* Estilos para el contenedor del formulario */
+    width: 80%;
+    height: auto;
+    /* Ejemplo de ancho base */
+    margin: 0 auto;
+    /* Centrar el formulario horizontalmente */
+    padding: 2rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base (opcional) */
+  }
+  fieldset{
+    margin: 0px;
+  }
+  .nombreForm {
+    /* Estilos para el título del formulario */
+    font-size: 4rem;
+    text-align: center;
+    /* Centrar el texto */
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    /* Estilos para labels, opciones y lista */
+    display: block;
+    /* Mostrar elementos en línea */
+    margin-bottom: 0.5rem;
+    /* Margen inferior base */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    /* Estilos para inputs de texto */
+    width: 90%;
+    /* Ancho completo */
+    padding: 1rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .formulario select {
+    /* Estilos para el selector */
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .form li {
+    /* Estilos para los elementos de la lista */
+    display: inline-block;
+    /* Mostrar elementos en línea */
+    margin-right: 1rem;
+    /* Margen derecho base */
+  }
+
+  #interesError {
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+  .botRegistrar {
+    /* Estilos para el botón de registro */
+    display: block;
+    /* Mostrar en línea */
+    width: 40%;
+    /* Ancho completo */
+    padding: 0.5rem;
+    /* Padding base */
+    background-color: #04d39f;
+    color: rgba(1, 1, 1, 0.866);
+    border: none;
+    /* Quitar borde */
+    cursor: pointer;
+    text-align:center;
+    margin-left: 40%;
+    border-radius: 5px;
+    /* Cambiar cursor al pasar el mouse */
+  }
+
+}
+
+/* Estilos para notebooks (mayor a 1024px) */
+@media  (min-width: 1025px) {
+  
+  .nombreForm {
+    color: #032c66;
+    font-size: 4rem;
+  }
+  .seccionFormulario {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    color: #032c66;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+
+  .formulario {
+    /* Estilos para el contenedor del formulario */
+    width: 90%;
+    height: auto;
+    /* Ejemplo de ancho base */
+    margin: 0 auto;
+    /* Centrar el formulario horizontalmente */
+    padding: 2rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base (opcional) */
+  }
+  fieldset{
+    margin: 0px;
+  }
+  .nombreForm {
+    /* Estilos para el título del formulario */
+    font-size: 4rem;
+    text-align: center;
+    /* Centrar el texto */
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    /* Estilos para labels, opciones y lista */
+    display: block;
+    /* Mostrar elementos en línea */
+    margin-bottom: 0.5rem;
+    /* Margen inferior base */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    /* Estilos para inputs de texto */
+    width: 90%;
+    /* Ancho completo */
+    padding: 1rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .formulario select {
+    /* Estilos para el selector */
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .form li {
+    /* Estilos para los elementos de la lista */
+    display: inline-block;
+    /* Mostrar elementos en línea */
+    margin-right: 1rem;
+    /* Margen derecho base */
+  }
+
+  #interesError {
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+  .botRegistrar {
+    margin-left: 30%;
+    width: 40%;
+    color: rgba(1, 1, 1, 0.866);
+    padding: 0.5rem;
+    background-color: #04d39f;
+    border: #04d39f;
+    font-size: 1.5em;
+    border-radius: 5px;
+  }
+}
+
+/* Estilos base para todos los dispositivos */
+@media (min-width:301px) and (max-width: 767px) {
+  
+    /* Estilos para la sección del formulario */
+
+    .nombreForm {
+      color: #032c66;
+      font-size: 4rem;
+    }
+    .seccionFormulario {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .formulario label,
+    select option,
+    ul {
+      color: #032c66;
+      font-size: 2rem;
+      padding: 2rem;
+    }
+
+
+    .formulario {
+      /* Estilos para el contenedor del formulario */
+      width: 100%;
+      height: auto;
+      /* Ejemplo de ancho base */
+      margin: 0 auto;
+      /* Centrar el formulario horizontalmente */
+      padding: 2rem;
+      /* Padding base */
+      border: 1px solid #ccc;
+      /* Borde base (opcional) */
+    }
+    fieldset{
+      margin: 0px;
+    }
+    .nombreForm {
+      /* Estilos para el título del formulario */
+      font-size: 4rem;
+      text-align: center;
+      /* Centrar el texto */
+    }
+
+    .formulario label,
+    select option,
+    ul {
+      /* Estilos para labels, opciones y lista */
+      display: block;
+      /* Mostrar elementos en línea */
+      margin-bottom: 1rem;
+      /* Margen inferior base */
+    }
+
+    .formulario input[type="text"],
+    .formulario input[type="email"],
+    .formulario input[type="date"],
+    .formulario input[type="tel"] {
+      /* Estilos para inputs de texto */
+      width: 90%;
+      /* Ancho completo */
+      padding: 1rem;
+      /* Padding base */
+      border: 1px solid #ccc;
+      /* Borde base */
+    }
+
+    .formulario select {
+      /* Estilos para el selector */
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      /* Borde base */
+    }
+
+    .form li {
+      /* Estilos para los elementos de la lista */
+      display: inline-block;
+      /* Mostrar elementos en línea */
+      margin-right: 1rem;
+      /* Margen derecho base */
+    }
+
+    #interesError {
+      color: red;
+      font-weight: bold;
+      font-size: 2em;
+  }
+  
+
+    .botRegistrar {
+      /* Estilos para el botón de registro */
+      display: block;
+      /* Mostrar en línea */
+      width: 40%;
+      /* Ancho completo */
+      padding: 0.5rem;
+      /* Padding base */
+      background-color: #04d39f;
+      color: rgba(1, 1, 1, 0.866);
+      border: none;
+      /* Quitar borde */
+      cursor: pointer;
+      /* Cambiar cursor al pasar el mouse */
+    }
+  
+}
+
+
+/* Estilos para tablets (entre 768px y 1024px) */
+  /*tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para la sección del formulario */
+
+  .nombreForm {
+    color: #032c66;
+    font-size: 4rem;
+  }
+  .seccionFormulario {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    color: #032c66;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+
+  .formulario {
+    /* Estilos para el contenedor del formulario */
+    width: 90%;
+    height: auto;
+    /* Ejemplo de ancho base */
+    margin: 0 auto;
+    /* Centrar el formulario horizontalmente */
+    padding: 2rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base (opcional) */
+  }
+  fieldset{
+    margin: 0px;
+  }
+  .nombreForm {
+    /* Estilos para el título del formulario */
+    font-size: 4rem;
+    text-align: center;
+    /* Centrar el texto */
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    /* Estilos para labels, opciones y lista */
+    display: block;
+    /* Mostrar elementos en línea */
+    margin-bottom: 0.5rem;
+    /* Margen inferior base */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    /* Estilos para inputs de texto */
+    width: 90%;
+    /* Ancho completo */
+    padding: 1rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .formulario select {
+    /* Estilos para el selector */
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .form li {
+    /* Estilos para los elementos de la lista */
+    display: inline-block;
+    /* Mostrar elementos en línea */
+    margin-right: 1rem;
+    /* Margen derecho base */
+  }
+
+  #interesError {
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+  .botRegistrar {
+    /* Estilos para el botón de registro */
+    display: block;
+    /* Mostrar en línea */
+    width: 40%;
+    /* Ancho completo */
+    padding: 0.5rem;
+    /* Padding base */
+    background-color: #04d39f;
+    color: rgba(1, 1, 1, 0.866);
+    border: none;
+    /* Quitar borde */
+    cursor: pointer;
+    text-align:center;
+    margin-left: 40%;
+    border-radius: 5px;
+    /* Cambiar cursor al pasar el mouse */
+  }
+
+}
+
+/* Estilos para notebooks (mayor a 1024px) */
+@media  (min-width: 1025px) {
+  
+  .nombreForm {
+    color: #032c66;
+    font-size: 4rem;
+  }
+  .seccionFormulario {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    color: #032c66;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+
+  .formulario {
+    /* Estilos para el contenedor del formulario */
+    width: 90%;
+    height: auto;
+    /* Ejemplo de ancho base */
+    margin: 0 auto;
+    /* Centrar el formulario horizontalmente */
+    padding: 2rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base (opcional) */
+  }
+  fieldset{
+    margin: 0px;
+  }
+  .nombreForm {
+    /* Estilos para el título del formulario */
+    font-size: 4rem;
+    text-align: center;
+    /* Centrar el texto */
+  }
+
+  .formulario label,
+  select option,
+  ul {
+    /* Estilos para labels, opciones y lista */
+    display: block;
+    /* Mostrar elementos en línea */
+    margin-bottom: 0.5rem;
+    /* Margen inferior base */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="date"],
+  .formulario input[type="tel"] {
+    /* Estilos para inputs de texto */
+    width: 90%;
+    /* Ancho completo */
+    padding: 1rem;
+    /* Padding base */
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .formulario select {
+    /* Estilos para el selector */
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    /* Borde base */
+  }
+
+  .form li {
+    /* Estilos para los elementos de la lista */
+    display: inline-block;
+    /* Mostrar elementos en línea */
+    margin-right: 1rem;
+    /* Margen derecho base */
+  }
+
+  #interesError {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+  .botRegistrar {
+    margin-left: 30%;
+    width: 40%;
+    color: rgba(1, 1, 1, 0.866);
+    padding: 0.5rem;
+    background-color: #04d39f;
+    border: #04d39f;
+    font-size: 1.5em;
+    border-radius: 5px;
+  }
+}
